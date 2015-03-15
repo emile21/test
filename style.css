@@ -1,0 +1,93 @@
+body {
+    height: 100vh;
+    background: url("http://fc03.deviantart.net/fs71/f/2011/292/9/9/tron_grid_wallpaper_1680x1050_by_sarah_hextall_design-d4dajzv.jpg");
+    background-size: 100% 100%;
+    color: rgb(0, 255, 108);
+    text-align: center;
+    font-family: "MagnaVeritas"
+}
+.red{
+    color: red;
+}
+#container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+form {
+    background: rgba(0, 204, 244, 0.65);
+    margin: auto;
+    margin-top: 100px;
+    max-width: 1000px;
+    width: 25%;
+    min-width: 200px;
+    border-radius: 10px;
+}
+
+form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#error{
+    margin-top: 20px;
+    visibility: hidden;
+    color: red;
+}
+#login {
+    background: url("https://www.ringsoforbis.com/library/theme/intro/images/login_button.png");
+    width: 128px;
+    height: 53px;
+    border: none;
+}
+
+#login:hover{
+    background: url("https://www.ringsoforbis.com/library/theme/intro/images/login_button_mo.png");
+    width: 128px;
+    height: 53px;
+    border: none;
+}
+/* font */
+
+@font-face {
+    font-family: 'MagnaVeritas';
+    src: url('http://robotique.quebec/pluri/MagnaVeritas.eot?#iefix') format('embedded-opentype'), url('http://robotique.quebec/pluri/MagnaVeritas.woff') format('woff'), url('http://robotique.quebec/pluri/MagnaVeritas.ttf') format('truetype'), url('http://robotique.quebec/pluri/MagnaVeritas.svg#MagnaVeritas') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
