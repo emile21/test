@@ -23,7 +23,7 @@ function type() {
             while (res[caractere] !== ">") {
                 ecrit = ecrit + res[caractere];
                 paragraphe.innerHTML = ecrit;
-                caractere++;Â 
+                caractere++;
                 if (caractere >= texte.length) {
                     return;
                 }
